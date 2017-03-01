@@ -87,7 +87,29 @@ For oracle database you need the oracle jdbc driver, and that requires and accou
 
 ## Some things you may want
 
-This repo let you do multiple things without having to do so many steps or need to now about Sakai technology. Also it could be useful to test Sakai with different databases or tomcat versions in minutes. 
+This repo let you do multiple things without having to do so many steps or need to now about Sakai technology. Also it could be useful to test Sakai with different databases or tomcat versions in minutes.
+
+### I want to test my Branch
+Before creating a PR you may want to test your branch. Let's say you want to test this branch
+https://github.com/juanjmerono/sakai/tree/SAK-32235
+
+* Branch settings
+	* REPO_OWNER=juanjmerono
+    * REPO_NAME=sakai
+    * REPO_REVISION=SAK-32235
+    * TOMCAT_IMAGE=tomcat:8.0.41-jre8
+    * SAKAI_IMAGE_NAME=juanjmerono/sakai
+    * SAKAI_TAG=SAK-32235
+	
+    * Oracle configuration
+    	* SAKAI_DB_DRIVER=oracle
+        * DB_IMAGE=sakaiproject/oracle
+        * DB_VERSION=oracle-xe-11g
+        * ORACLE_USER=Your oracle user
+        * ORACLE_PASS=Your oracle password
+    	
+  
+
 
 ### I Want to test some Sakai PR
 
