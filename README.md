@@ -106,9 +106,7 @@ https://github.com/juanjmerono/sakai/tree/SAK-32235
         * DB_IMAGE=sakaiproject/oracle
         * DB_VERSION=oracle-xe-11g
         * ORACLE_USER=Your oracle user
-        * ORACLE_PASS=Your oracle password
-    	
-  
+        * ORACLE_PASS=Your oracle password 
 
 
 ### I Want to test some Sakai PR
